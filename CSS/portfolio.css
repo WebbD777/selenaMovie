@@ -1,0 +1,56 @@
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    }
+    
+    button:hover{
+    background-color: beige;
+    }
+    
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        /*background-color: rgb(177, 177, 227);*/
+        background-color: white;
+    
+        justify-content: space-between; 
+    
+        border-bottom:2px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-style:solid;
+        border-color: black;
+       
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        
+    }
+    
+    .name{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 65px;
+        cursor: pointer;
+    }
+    
+    .head-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
+    }
+
+    .portfolioSelect-div{
+        background-color: red;
+        padding-top: 80px;
+    }
+
+    .gitSelect{
+        size: 1000px;
+        color: blueviolet;
+    }

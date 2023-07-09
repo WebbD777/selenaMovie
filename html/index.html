@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <title>Document</title>
+  </head>
+  <script src="/Javascript/index.js"></script>
+  <body>
+    <div class="header">
+      <!--<div class="homeImage-div"></div>
+      <img
+        id="homeImg-id" 
+        onclick="goHome()"
+        class="selfi-img"
+        src="/images/selfi.jpeg"
+        alt="homeImage.jpeg"
+      />
+-->
+      <span class="name" id="homeImg-id" onclick="goHome()">Dylan</span>
+      <div class="head-div">
+        <button class="home-button">home</button>
+        <button class="about-button" onclick="aboutButton()">about</button>
+        <button class="port-button" onclick="portfolioButton()">
+          portfolio
+        </button>
+      </div>
+    </div>
+
+    <div class="intro-div">
+      <div class="intro-img-div">
+        <img src="/images/menejir.png" alt="introImg.png" class="intro-img" />
+      </div>
+      <div class="quote-div">
+        <b class="quote"
+          >"I am neither Goku nor Vegeta... I am the one who will destroy
+          you"</b
+        >
+      </div>
+    </div>
+
+    <!-- For quiz game -->
+    <div class="quiz-div">
+      <h1>Quiz about Kylie</h1>
+      <div class="question-div">
+        <h2 id="question-text">Questions go here</h2>
+        <div class="answer-div" id="answer-btn">
+          <button class="btn">A1</button>
+          <button class="btn">A2</button>
+          <button class="btn">A3</button>
+          <button class="btn">A4</button>
+        </div>
+        <button class="nxt-btn" id="nxt-btn">Next</button>
+      </div>
+    </div>
+
+    <div class="foot-div">
+      <button class="threads-button">threads</button>
+      <button class="instagram-button">instagram</button>
+      <button class="facebook-button">facebook</button>
+    </div>
+
+    <script src="/Javascript/quizGame.js"></script>
+    <!--<div class="background-div"></div> -->
+  </body>
+</html>
